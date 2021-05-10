@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>ReservaGourmet</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ </head>
+ 
+		  <body style="margin: 0; padding: 0;color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
+			  <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				  <tr>
+					  <td style="color:#999; font-size:10px;">Este é  um e-mail automático, não é necessário respondê-lo.</td>
+				  </tr>
+			  </table>
+			  
+			 <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+				 
+				 
+	   <tr>  
+		<td bgcolor="#471209"  style="padding: 30px 0 20px 0;">
+		  <img src="http://appsisecommerces3.s3.amazonaws.com/clientes/cliente11407/conteudos/108/1516299854.png" alt="Criando Mágica de E-mail" style="display: block; margin: auto;"/>
+		</td>
+	   </tr>
+	   <tr>
+		<td bgcolor="#ffffff"  style="padding: 40px 30px 40px 30px;">
+		  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+		
+		
+		<tr>
+		 <td>
+		  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+	   <tr>
+		<td width="260" valign="top">
+		   <table border="0" cellpadding="0" cellspacing="0" width="100%">
+		  <tr>
+              <td style="color: #153643; font-family: Arial, sans-serif; font-size: 18px;"><strong>Olá {$pedido_nome}!</strong></td>
+		  </tr>
+		  <tr>
+		  </tr>
+		 </table>
+		</td>
+		<td style="font-size: 0; line-height: 0;" width="20">&nbsp;
+		 
+		</td>
+		<td width="260" valign="top">
+		   <table border="0" cellpadding="0" cellspacing="0" width="100%">
+		  <tr>
+		   <td style="color: #e09a2a; font-family: Arial, sans-serif; font-size: 18px; text-align:right;">Pedido Nº<strong>{$pedido_id}</strong></td>
+		  </tr>
+		  <tr>
+		   
+		  </tr>
+		 </table>
+		</td>
+	   </tr>
+	  </table>
+		 </td>
+		</tr>
+		<tr>
+		 <td style="padding: 20px 0 30px 0; text-align:justify;">
+				Que bom que você recebeu o seu pedido de  Nº <strong>{$pedido_id}</strong> ! 
+				Ficamos muito felizes em te entregar um ótimo produto e participar da sua experiência com o Café Gourmet.
+				Nossa equipe te enviará em 2 dias um e-mail de avaliação do nosso produto para sabermos sua opinião e sugestões.
+				Assim nós melhoramos ainda mais a sua experiência!
+				
+		 </td>
+		</tr>
+             <!--==== ACOMPANHE SEU PEDIDO ======--> 
+            <tr>
+		 <td style="padding: 20px 0 30px 0; text-align:justify;">
+			
+             <center><span style="font-family: Arial, sans-serif; font-size: 18px;color:#e09a2a;">ACOMPANHE  SEU PEDIDO</span></center>
+             
+             <center><img src="http://appsisecommerces3.s3.amazonaws.com/clientes/cliente11407/conteudos/108/1516298048.png" style="max-width: 100%";/></center>
+                                         
+             <p style="text-align:justify;">
+					<br>
+				<br>
+				<strong>PRODUTOS</strong>
+				<br>
+				{$pedido_html_produtos}<br>
+			
+				{$pedido_html_totais}<br>
+				<br>
+			
+				</p>
+             
+				
+		 </td>
+		</tr>  
+	   </table>
+		</td>
+	   </tr>
+	  </table>
+		  </body>
+		  </html>
